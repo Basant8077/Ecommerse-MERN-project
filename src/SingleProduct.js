@@ -1,6 +1,17 @@
 import styled from "styled-components";
+// import { useParams } from "react-router-dom"
 
-return <Wrapper></Wrapper>;
+
+const SingleProduct = () => {
+  // const { id } = useParams();
+  return (
+    <>
+      <Wrapper>
+      </Wrapper>;
+      {/* <h1>hlo {id} </h1> */}
+    </>)
+}
+
 
 const Wrapper = styled.section`
   .container {
