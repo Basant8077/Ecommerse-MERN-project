@@ -10,6 +10,7 @@ import Errorpage from "./Errorpage";
 import { GlobalStyle } from "./GlobalStyle";
 import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 //since we have not retuen default so use curly bracket also now we can use theame components
 
 const App = () => {
@@ -29,7 +30,7 @@ const App = () => {
 
       bg: "#F6F8FA",
 
-      footer_bg: "0a1435",
+      footer_bg: "#0a1435",
 
       btn: "rgb(98 84 243)",
 
@@ -73,6 +74,7 @@ const App = () => {
               <Route path="/cart" element={<Cart />} />
               <Route path="*" element={<Errorpage />} />
             </Routes>
+            <Footer/>
          
         </Router>
       </ThemeProvider>
