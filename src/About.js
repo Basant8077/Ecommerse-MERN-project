@@ -1,9 +1,10 @@
 import React from 'react'
+import Herosection from './components/Herosection'
 
 function About() {
   return (
     <div>
-      <h1>About section</h1>
+     <Herosection name = {"Basant Ecommerce"} />
     </div>
   )
 }

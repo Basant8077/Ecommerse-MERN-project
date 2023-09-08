@@ -1,14 +1,16 @@
 import React from 'react'
-import styled from 'styled-components'
+import Herosection from './components/Herosection'
+import Trusted from './components/Trusted'
+import Services from './components/Services'
+
 function Home() {
   return (
     <>
-   
+      <Herosection name={"Basant's Store"} />
+      <Services/>
+      <Trusted/>
     </>
   )
 }
 
-const Wrapper = styled.section`
- 
-`
 export default Home
